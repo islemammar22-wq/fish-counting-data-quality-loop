@@ -9,7 +9,7 @@ from ultralytics import YOLO
 
 st.title("Object counter")
 
-weights = st.text_input("Weights path", "runs/round2/weights/best.pt")
+weights = st.text_input("Weights path", "weights/best.pt")
 conf = st.slider("Confidence threshold", 0.05, 0.9, 0.25, 0.05)
 upload = st.file_uploader("Image", type=["jpg", "jpeg", "png"])
 
