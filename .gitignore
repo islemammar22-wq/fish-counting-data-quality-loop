@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+runs/
+data/
+review_*/
+errors_*.csv
+*.cache
+*.pt
+*.zip
+weights/
